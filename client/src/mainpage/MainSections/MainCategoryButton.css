@@ -1,0 +1,172 @@
+
+  @font-face {
+    font-family: 'BBTreeGL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  p{
+    font-family:BBTreeGL;
+    /* .maincategorytd */
+  }
+  .category{
+    position: absolute;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .categorybutton1:hover{
+    transition-duration: 0.6s;
+    transform: translateY(-50px);
+    /* height: 50%; */
+  }
+  .categorybutton2:hover{
+    transition-duration: 0.6s;
+    transform: translateY(-50px);
+    /* height: 50%; */
+  }
+  .categorybutton3:hover{
+    transition-duration: 0.6s;
+    transform: translateY(-50px);
+    /* height: 50%; */
+  }
+  .categorybutton4:hover{
+    transition-duration: 0.6s;
+    transform: translateY(-50px);
+    /* height: 50%; */
+  }
+  :target{
+    transform: translateY(-50px);
+  }
+  
+  .categorybutton1{
+    background: url( "../pictures/display.png" ) no-repeat;
+    background-size: 60px;
+    background-position: 50% 25%;
+    border: 0;
+    outline:0;
+    width: 120px;
+    height: 120px;
+    padding: 13.4px 15.4px 8.4px 18.3px;
+    border-radius: 27.5px;
+    background-color: #ff8d93;
+    margin-right:30px;
+  }
+  .categorybutton2{
+    background: url( "../pictures/stage.png" ) no-repeat;
+    background-size: 60px;
+    background-position: center;
+    border: 0;
+    outline:0;
+    width: 120px;
+    height: 120px;
+    
+    padding: 13.4px 15.4px 8.4px 18.3px;
+    border-radius: 27.5px;
+    background-color: #ff8d93;
+    margin-left: 30px;
+    margin-right:30px;
+  }
+  .categorybutton3{
+    background: url( "../pictures/haksul.png" ) no-repeat;
+    background-size: 60px;
+    background-position: center;
+    border: 0;
+    outline:0;
+    width: 120px;
+    height: 120px;
+    
+    padding: 13.4px 15.4px 8.4px 18.3px;
+    border-radius: 27.5px;
+    background-color: #ff8d93;
+    margin-left: 30px;
+    margin-right:30px;
+  }
+  .categorybutton4{
+    background: url( "../pictures/event.png" ) no-repeat;
+    background-size: 60px;
+    background-position: center;
+    border: 0;
+    outline:0;
+    width: 120px;
+    height: 120px;
+    padding: 13.4px 15.4px 8.4px 18.3px;
+    border-radius: 27.5px;
+    background-color: #ff8d93;
+    margin-left: 30px;
+  }
+  .verticalLine {
+    width: 0;
+    height: 32px;
+    margin: 67.1px 0 75.6px;
+    border: solid 1px #49c2cb;
+    background-color:#49c2cb;
+  }
+
+  .display{
+    padding-left: 10px;
+    width: 320px;
+    height: 500px;
+    box-shadow: 4px 4px 5px 0 rgba(35, 31, 32, 0.4);
+    background-color: #ffffff;
+  }
+
+  
+#nowshowtable{
+  table-layout: fixed;
+  /* overflow: auto; */
+  border-spacing: 40px;
+  margin-right: 0;
+  border: none;
+}
+#nowshowtable, th, .maincategorytd {
+  /* border: 1px solid #D1ECEF; */
+  
+}
+.maincategorytd {
+  padding-bottom: 3em;
+  padding-right: 2em;
+  
+}
+.nowwhat{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin:0 auto; 
+}
+.nowinfo{
+  font-size: 20px;
+  font-weight:500;
+  text-align: center;
+  margin:0 auto; 
+}
+
+.upbutton{
+  font-size: 40px;
+  color:#49C2CB;
+  margin:0 auto; 
+}
+.downbutton{
+  width: 36px;
+  color:#49C2CB;
+  border-style: none;
+  margin:0 auto; 
+}
+
+
+.moalook{
+  margin-top: -7px;
+  width: cover;
+  height:370px;
+  display: inline-block;
+  justify-content:center;
+  align-items:center;
+  
+  background-image:url('../pictures/moalook.png'); 
+  
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  text-align: center;
+}

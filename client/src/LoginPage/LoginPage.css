@@ -1,0 +1,9 @@
+@import url('http://db.onlinewebfonts.com/c/a286a8e0da1bbd51c43ca3db89d34a83?family=TypoGraphica');
+/* @import url('https://cdn.jsdelivr.net/font-kopub/1.0/kopubbatang.css'); */
+
+    
+.mainText {
+    font-family: 'TypoGraphica';
+    font-size: 100px;
+    margin: 0 0 50px 0;
+}

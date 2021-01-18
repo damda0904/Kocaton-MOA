@@ -1,0 +1,38 @@
+.search{
+    position: relative;
+    margin-top:50px;
+    margin-bottom:50px;
+    /* margin-right: 100px; */
+    width:51%;
+    height:47px;
+    font-family: NotoSansCJKkr-Light;
+    font-size:22px;
+    font-weight:lighter;
+    right:8%;
+    text-align:right;
+    padding-right: 3rem;
+    outline: none;
+    text-align:right;
+    border-radius:0px;
+    border: 3px solid #F3868D;
+}
+
+
+.searchicon_ {
+    position: absolute;
+    margin-top:60px;
+    right:9%;
+    width:30px;
+    height:30px;
+    color:#F3868D;
+    cursor: pointer;
+}
+
+.searchNothing {
+    margin-top:100px;
+    text-align:center;
+    font-family: NotoSansCJKkr-Light;
+    font-size:40px; 
+    font-weight:bolder;
+    color:#F3868D;
+}

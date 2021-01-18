@@ -1,0 +1,24 @@
+.Logo{
+    height: 30px;
+    object-fit: cover;
+}
+
+.Preview {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.Profile{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.changeProfile{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    border-radius:50%;
+}
