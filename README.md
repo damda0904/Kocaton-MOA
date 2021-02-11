@@ -28,4 +28,6 @@
 >모든 로고 및 UI디자인은 내가 담당하였다.
 
 
-![2안](https://user-images.githubusercontent.com/67117391/107643045-fe3b1800-6cb8-11eb-991c-93a9c98335c0.PNG)
+![최종UI-1](https://user-images.githubusercontent.com/67117391/107644202-79e99480-6cba-11eb-867c-bd13a3952ab2.jpg)
+
+
